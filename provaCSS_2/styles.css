@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.formulario {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-sizing: content-box;
+    border: 5px solid black;
+    border-style: groove;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rotulo {
+    padding: 10px;
+    margin: 5px;
+}
+
+textarea {
+    width: 200px;
+    height: 60px;
+    resize: none;
+    display: block;
+}
+
+input {
+    display: block;
+}
+
+button {
+    margin-left: 15px;
+
+}
+
+h2 {
+    margin-left: 15px;
+
+}
+
+.botao {
+    background-color: #fff;
+    border: none;
+    font-size: 2ch;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.5s;
+}
+
+#vermelho:hover {
+    background-color: #f90000;
+}
+
+#verde:hover {
+    background-color: #4CAF50;
+}
